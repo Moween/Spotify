@@ -5,33 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    
+    <!--STYLESHEET-->
     <link rel="stylesheet" href="styles.css">
+
+    <!--ICONS-->
+    <script src="https://kit.fontawesome.com/52e1924adf.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <header id="header">
-        <div class="brand-logo">
-            <img src="" alt="img">
+        <div class="wrapper" id="header-main-div01">
+            <div class="brand-logo">
+                <img src="" alt="img">
+            </div>
+            <div class="dropdown">
+                <span class="fas fa-bars dropdown-bars"></span>        
+                <nav class="navbar dropdown-content">
+                        <ul class="nav-list">
+                            <li class="nav-list-item"><a href="#" class="nav-link">Premium</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link">Help</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link">Download</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link">Sign up</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link">Log in</a></li>                
+                        </ul>
+                </nav>
+            </div>
         </div>
-        <nav class="navbar">
-            <ul class="nav-list">
-                <li class="nav-list-item"><a href="#" class="nav-link">Premium</a></li>
-                <li class="nav-list-item"><a href="#" class="nav-link">Help</a></li>
-                <li class="nav-list-item"><a href="#" class="nav-link">Download</a></li>
-                <li class="nav-list-item"><a href="#" class="nav-link">Sign up</a></li>
-                <li class="nav-list-item"><a href="#" class="nav-link">Log in</a></li>                
-                
-            </ul>
-        </nav>
     </header>
     <main>
         <section id="section1">
             <div class="wrapper">
                 <h1 id="h01">Spotify is currently not available in your country.</h1>
                 <p class="page-first-paragraph">Follow us online to find out when we launch</p>
-                <div>
-                    <a href=""><i class="fas fa-instagram"></i></a>
-                    <a href=""><i class="fas fa-twitter"></i></a>
-                    <a href=""><i class="fas fa-facebook"></i></a>
+                <div class="social-icons">
+                    <a href="#" class="social-icons-link"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="social-icons-link"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="social-icons-link"><i class="fa fa-facebook"></i></a>
                 </div>
             </div>
         </section>
@@ -43,15 +53,14 @@
                         <div>
                             <img src="https://www.scdn.co/i/generic/premium-img1.jpg" alt="img" width="290"  height="150">
                         </div>
-                        <p class="article-paragraph">Listen everywhere</p>
+                        <h3 class="h03">Listen everywhere</h3>
                         <p class="article-paragraph">Spotify works on your computer, mobile, tablet and TV.</p>
                     </article>
-
                     <article>
                         <div>
                             <img src="https://www.scdn.co/i/generic/premium-img2.jpg" alt="img" width="290"  height="150">
                         </div>
-                        <p class="article-paragraph">Unlimited, ad-free music</p>
+                        <h3 class="h03">Unlimited, ad-free music</h3>
                         <p class="article-paragraph">No ads. No interruptions. Just music.</p>
                     </article>
 
@@ -59,15 +68,15 @@
                         <div>
                             <img src="https://www.scdn.co/i/generic/premium-img3.jpg" alt="img" width="290"  height="150">
                         </div>
-                        <p class="article-paragraph">Download music & listen offline</p>
+                        <h3 class="h03">Download music & listen offline</h3>
                         <p class="article-paragraph">Keep playing, even when you don't have a connection.</p>
                     </article>
 
                     <article>
                         <div>
-                            <img src="https://www.scdn.co/i/generic/premium-img4.jpg" alt="img" width="290"  height="100">
+                            <img src="https://www.scdn.co/i/generic/premium-img4.jpg" alt="img" width="290"  height="150">
                         </div>
-                        <p class="article-paragraph">Premium sounds better</p>
+                        <h3 class="h03">Premium sounds better</h3>
                         <p class="article-paragraph">Get ready for incredible sound quality.</p>
                     </article>                    
                 </div>
@@ -75,7 +84,7 @@
             </div>
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <section>
             <div>
                 <img>
