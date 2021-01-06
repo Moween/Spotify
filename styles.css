@@ -54,3 +54,44 @@ body {
     color: whitesmoke;
     text-decoration: none;
 }
+
+#section1 {
+    width: 100%;
+    background-image: ;
+    margin: 0;
+    background-color: lightcoral;
+}
+
+.wrapper {
+  width: 90%;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* margin-right: auto;
+  margin-left: auto; */
+}
+
+#h01 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page-first-paragraph {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+#h02 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 5px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article-paragraph {
+    text-align: center;
+}
