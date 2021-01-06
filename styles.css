@@ -46,8 +46,9 @@ body {
     display: flex;
 
 }
-
-
+.nav-list-item {
+    display: inline-block;
+}
 
 .nav-link {
     color: whitesmoke;
