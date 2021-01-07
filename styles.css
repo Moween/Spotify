@@ -120,7 +120,7 @@ body {
     padding: 15px;
 }
 .fa {
-    font-size: 50px;
+    font-size: 25px;
 
 }
 
@@ -136,6 +136,7 @@ body {
 
 }
 
+
 #h02 {
     font-size: 2.5rem;
     text-align: center;
@@ -147,7 +148,7 @@ body {
     text-align: center;
     padding: 0 15px;
     margin-top: 5px;
-
+    
 }
 
 
@@ -162,6 +163,10 @@ body {
     columns: lightgray;
 }
 
+.foot-sect {
+    margin-top: 0;
+}
+
 .d05 {
     color: gray;
     font-size: 12px;
@@ -169,7 +174,7 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     margin: 50px 0 22px;
-
+    
 }
 
 .footer-list {
@@ -208,4 +213,55 @@ body {
     margin: 5px;
     padding: 10px;
     width: 30px;
+}
+
+#int01 {
+    float: right;
+}
+
+#int01 a {
+    display: inline-block;
+    color: #999;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.78rem;
+    
+}
+
+#ftulsp {
+    clear: right;
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 0.78rem;
+
+
+}
+
+#bottom-list {
+    list-style-type: none;
+    margin: 0 45px 20px 0;    
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+}
+
+.bottom-links {
+    color: #999;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 7px;    
+    padding: 5px;
+
+}
+
+.bottom-links:hover {
+    color: lime;
+}
+
+.copy2021 {
+    color: #999;
+    width: 35%;
+    text-align: center;
 }
