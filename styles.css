@@ -32,12 +32,13 @@ body {
 }
   
 .fa-bars {
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
+    top: 20px;
     right: -10px;
     background-color: #000;
     overflow: auto;
@@ -49,9 +50,6 @@ body {
   
 .dropdown:hover .dropdown-content {
     display: block;
-}
-.navbar {
-    width: 10%;
 }
 
 .nav-list {
@@ -77,6 +75,10 @@ body {
     display: inline-block;
     color: whitesmoke;
     text-decoration: none;
+}
+
+.dropdown-bars {
+    
 }
 
 /* THE MAIN SECTION CSS SELECTORS AND STYLE RULES */
