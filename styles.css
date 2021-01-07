@@ -235,10 +235,7 @@ body {
 #ftulsp {
     clear: right;
     display: flex;
-    /* justify-content: space-between; */
     font-size: 0.78rem;
-
-
 }
 
 #bottom-list {
@@ -269,4 +266,28 @@ body {
     color: #999;
     width: 35%;
     text-align: center;
+}
+
+/**MIN-WIDTH : 600px**/
+@media only screen and (min-width: 600px) {
+    /* Main Section Styles */
+    .img-box {
+        margin: 0 auto;
+        max-width: 70%;
+        height: 200px;
+    }
+
+    .main-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Footer Section Styles */
+    #bottom-list {        
+        width: 70%;    
+    }
+    
+    .copy2021 {
+        width: 20%;
+    }
 }
