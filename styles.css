@@ -341,5 +341,16 @@ body {
 
 /*FOR LARGE SCREEN**/
 @media only screen and (min-width: 1024px) {
-
+    .main-section-div {
+        flex-wrap: nowrap;
+       }
+   
+       .article-box {
+           width: 20%;
+       }
+   
+       .img-box {
+           max-width: 100%;
+           margin: 0;
+       }  
 }
