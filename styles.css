@@ -280,7 +280,7 @@ body {
 }
 
 /**MIN-WIDTH : 600px**/
-@media only screen and (min-width: 600px;) {
+@media only screen and (min-width: 600px) {
     /* Main Section Styles */
     .img-box {
         max-width: 70%;
