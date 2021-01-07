@@ -338,3 +338,8 @@ body {
 
     
 }
+
+/*FOR LARGE SCREEN**/
+@media only screen and (min-width: 1024px) {
+
+}
