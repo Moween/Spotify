@@ -96,8 +96,8 @@ body {
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
-  /* margin-right: auto;
-  margin-left: auto; */
+  margin-right: auto;
+  margin-left: auto;
 }
 
 #h01 {
@@ -300,5 +300,41 @@ body {
 /**MIN-WIDTH : 768px**/
 @media only screen and (min-width: 768px) {
     /* Main Section Styles */
+    .wrapper {
+        width: 95%;
+        padding-top: 15px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .main-section-div {
+     display: flex;  
+     justify-content: space-between; 
+     width: 100%;
+     flex-wrap: wrap;
+     margin-top: 50px;
+    }
+
+    .article-box {
+        width: 45%;
+    }
+
+    .img-box {
+        max-width: 100%;
+        margin: 0;
+    }  
+
+
+    /* Footer Section Styles */
+    #bottom-list {        
+        width: 70%;    
+    }
+    
+    .copy2021 {
+        width: 30%;
+        text-align: right;
+    }
+
     
 }
