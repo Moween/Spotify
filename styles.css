@@ -7,6 +7,7 @@ body {
     box-sizing: border-box;
 }
 
+/* THE HEADER CSS SELECTORS AND THE STYLE RULES. */
 #header {
     background-color: black;
     width: 100%;
@@ -79,6 +80,8 @@ body {
     color: whitesmoke;
     text-decoration: none;
 }
+
+/* THE MAIN SECTION CSS SELECTORS AND STYLE RULES */
 
 #section1 {
     width: 100%;
@@ -157,6 +160,7 @@ body {
     padding: 0 15px 15px 15px;
 }
 
+/* FOOTER SECTION CSS SELECTORS AND THEIR STYLE RULES */
 
 #footer {
     background-color: black;
@@ -259,6 +263,7 @@ body {
 .bottom-links:hover {
     color: lime;
 }
+
 
 .copy2021 {
     color: #999;
