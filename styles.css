@@ -120,7 +120,7 @@ body {
     padding: 15px;
 }
 .fa {
-    font-size: 25px;
+    font-size: 50px;
 
 }
 
@@ -162,3 +162,50 @@ body {
     columns: lightgray;
 }
 
+.d05 {
+    color: gray;
+    font-size: 12px;
+    letter-spacing: .08em;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 50px 0 22px;
+
+}
+
+.footer-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-list-item {
+    padding: 10px 10px 10px 0;
+    margin: 5px 5px 5px 0;
+}
+
+.footer-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+#footer-social-icons {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.footer-socialicons {
+    display: flex;
+    padding-left: 0;
+    margin: 20px 0 0;
+}
+
+.ftsoi-link {
+    border: 1px solid #333;
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    width: 30px;
+}
