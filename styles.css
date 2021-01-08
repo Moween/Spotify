@@ -442,7 +442,11 @@ body {
         margin: 0;
         
     } 
-    
+    #footer-section01 {        
+        flex-wrap: nowrap;
+        
+    }
+
     .ftlinflx {
         width: 20%;
     }
