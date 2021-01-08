@@ -329,6 +329,7 @@ body {
     /* Footer Section Styles */
     #footer-section01 {
         display: flex;
+        flex-wrap: wrap;
         margin-top: 0;
         padding-top: 50px;
     }
@@ -341,7 +342,7 @@ body {
     }
 
     #footer-social-icons {
-        display: none;
+        display: block;
     }
 
     #bottom-list {        
