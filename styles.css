@@ -279,7 +279,7 @@ ul > input[type="email"] {
 /**MIN-WIDTH : 768px**/
 @media only screen and (min-width: 768px) { 
     input[type="email"] {
-        width: 70%;
+        width: 50%;
     } 
     
     /* Main Section Styles */
