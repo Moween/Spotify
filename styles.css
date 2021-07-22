@@ -341,9 +341,13 @@ ul > input[type="email"] {
 }
 
 /*FOR LARGE SCREEN**/
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {   
     
     /*The HEADER**/
+    input[type="email"] {
+        width: 70%;
+    } 
+
     .wrapper {
         width: 80%;
         
