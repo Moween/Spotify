@@ -192,6 +192,7 @@ ul > input[type="email"] {
 
 .footer-socialicons {
     display: flex;
+    list-style-type: none;
     padding-left: 0;
     margin: 20px 0 0;
 }
@@ -336,7 +337,6 @@ ul > input[type="email"] {
         width: 30%;
         text-align: right;
     }
-
     
 }
 
